@@ -1,0 +1,14 @@
+import java.util.*;
+class Program
+{
+  pubilc static void main(String[] args)
+  {
+    String s = "VishnuTeja";
+    String sr = ""; //The reversed string will be stored here
+    for(int i=s.length()-1;i>=0;i--)
+    {
+      sr = sr + s.charAt(i);
+    }
+    System.out.println("The reverse of the given string is: " + sr);
+  }
+}
